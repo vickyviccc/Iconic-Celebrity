@@ -1,41 +1,122 @@
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.container .video {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    margin-top: 10px;
+    transition: all 150ms ease-in-out;
+    border: #ff00ff 3px solid;
+    border-top-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.container .video:hover {
+    transform: scale(2.5);
+}
+
+.queen p {
+    font-family: "Long Cang";
+        line-height: 2;
+        font-size: 30px;
+      text-align: center;
+}
+.img-responsive {
+    width: 100%;
+    display: block;
+border: #ff00ff 3px solid;
+    border-top-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    margin: 0 auto;
+    
+}
+
+
+.grid {
+
+  padding: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+}
+
+.grid p {
+    line-height: 1.5;
+}
+
+
+.btn {
+    display: block;
+    margin: 0 auto;
+padding: 10px;
+    letter-spacing: 3px;
+    background-color: black;
+    color: white;
+    font-family: "Long Cang";
+    font-size: 20px;
+    border: 3px solid #ff00ff;
+  text-transform: uppercase;
+
+}
+
+li {
+    list-style-type: none;
+    font-family: "Long Cang";
+    font-size: 30px;
+}
+
+h3 {
+    font-family: "Long Cang";
+        font-size: 30px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
 header {
-    background-image: linear-gradient(to bottom, #ff00ff 0%, rgba(0, 0, 0, 0) 100%), url(images/51613340052_7f5e09e744_k.jpg);
-  
+    background-image: linear-gradient(to bottom, #ff00ff 0%, rgba(0, 0, 0, 0)), url(images/51613340052_7f5e09e744_k.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         color: white;
         text-align: center;
-        padding: 500px 0;
-  
+        padding: 500px 0; 
 }
 
 header h1 {
-
- 
     font-family:"Licorice";
     font-size: 60px;
-    text-align: right;
-    margin-right: 10px;
- 
-
+    text-align: center;
+    margin-top: 5px;
 }
 
-
-
-
-
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
+main p {
+    font-family: "Long Cang";
+    line-height: 2;
+    font-size: 30px;
+    text-align: center;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 960px) {
     header {
-       
-        padding: 150px 0px;
+        padding: 200px 0px;
     }
 
     header h1 {
-        margin-left: 200px;
+        font-size: 16px;
     }
+
+    main p {
+        font-size: 16px;
+    }
+.grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+    padding: 60px;
+}
+ 
 }
