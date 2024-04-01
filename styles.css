@@ -25,12 +25,12 @@
       text-align: center;
 }
 .img-responsive {
-    width: 100%;
-    display: block;
+    width: 150%;
+    display: inline block;
 border: #ff00ff 3px solid;
     border-top-left-radius: 5%;
     border-bottom-right-radius: 5%;
-    margin: 0 auto;
+   
     
 }
 
